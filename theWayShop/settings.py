@@ -85,6 +85,8 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'hesham94',
         'HOST': 'localhost',
+        'PORT': 5432
+
   
 
     }
@@ -129,7 +131,7 @@ USE_TZ = True
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'theWayShop\static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'theWayShop/static')]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
